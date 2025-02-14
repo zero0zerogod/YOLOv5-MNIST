@@ -1,22 +1,32 @@
-runs/
-/build/
+# Ignore compiled Python files
 __pycache__/
-/logs/
-/*.log# Logs
+*.pyc
+
+# Ignore logs
+logs/
 *.log
 
-# Virtual environment
+# Ignore virtual environment
 venv/
-__pycache__/
+.VENV/
 
-# Data
+# Ignore build artifacts
+/build/
+
+# Ignore YOLOv5 directory (if managed separately)
+yolov5/
+
+# Ignore training outputs and temporary files
+runs/
+
+# Ignore dataset files
 data/yolo_data/images/
-data/yolodata/labels/
+data/yolo_data/labels/
 data/yolo_data/test/
 data/yolo_data/train/
 data/yolo_data/val/
-runs/
 
-/venv/
-/*.pyc
-yolov5/
+# Ensure all files inside train, val, test are ignored
+data/yolo_data/test/**
+data/yolo_data/train/**
+data/yolo_data/val/**
