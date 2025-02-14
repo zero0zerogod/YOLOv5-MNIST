@@ -1,0 +1,6 @@
+train: ../data/yolo_data/train/images  # 학습 데이터 이미지 경로
+val: ../data/yolo_data/val/images      # 검증 데이터 이미지 경로
+test: ../data/yolo_data/test/images    # 테스트 데이터 이미지 경로
+
+nc: 10  # MNIST 숫자는 0~9, 총 10개의 클래스
+names: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']

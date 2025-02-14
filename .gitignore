@@ -1,0 +1,19 @@
+runs/
+/build/
+__pycache__/
+/logs/
+/*.log# Logs
+*.log
+
+# Virtual environment
+venv/
+__pycache__/
+
+# Data
+data/yolo_data/images/
+data/yolo_data/labels/
+runs/
+
+/venv/
+/*.pyc
+yolov5/
