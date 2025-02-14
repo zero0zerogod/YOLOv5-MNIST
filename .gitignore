@@ -11,7 +11,10 @@ __pycache__/
 
 # Data
 data/yolo_data/images/
-data/yolo_data/labels/
+data/yolodata/labels/
+data/yolo_data/test/
+data/yolo_data/train/
+data/yolo_data/val/
 runs/
 
 /venv/
